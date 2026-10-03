@@ -2,53 +2,68 @@ import { GalleryImage } from '../types';
 
 export const INITIAL_GALLERY_IMAGES: GalleryImage[] = [
   {
-    id: 'g1',
-    url: '/src/assets/images/eiffel_tower_night_1791045748763.jpg',
+    id: 'user-img-1',
+    url: 'https://i.ibb.co/qYX2Ms7d/photo-2026-09-27-11-21-28.jpg',
     span: 'col-span-1 sm:col-span-2 row-span-2'
   },
   {
-    id: 'g2',
-    url: '/src/assets/images/ai_circuit_chip_1791045763363.jpg',
+    id: 'user-img-2',
+    url: 'https://i.ibb.co/qLddYsZ7/photo-2026-09-27-11-21-23.jpg',
     span: 'col-span-1'
   },
   {
-    id: 'g3',
-    url: '/src/assets/images/red_electric_car_1791045776039.jpg',
+    id: 'user-img-3',
+    url: 'https://i.ibb.co/cc9MfZHF/photo-2026-09-27-11-21-34.jpg',
     span: 'col-span-1'
   },
   {
-    id: 'g4',
-    url: '/src/assets/images/balloons_cappadocia_1791045799613.jpg',
+    id: 'user-img-4',
+    url: 'https://i.ibb.co/hJ96fbVT/photo-2026-09-27-11-22-56.jpg',
     span: 'col-span-1 sm:col-span-2'
   },
   {
-    id: 'g5',
-    url: '/src/assets/images/fitness_training_park_1791045788921.jpg',
+    id: 'user-img-5',
+    url: 'https://i.ibb.co/LzcYsfBN/photo-2026-09-27-11-25-30.jpg',
     span: 'col-span-1'
   },
   {
-    id: 'g6',
-    url: '/src/assets/images/remote_office_worker_1791045810299.jpg',
+    id: 'user-img-6',
+    url: 'https://i.ibb.co/hJX8H7cq/photo-2026-09-27-11-31-34.jpg',
     span: 'col-span-1'
   },
   {
-    id: 'g7',
-    url: '/src/assets/images/camera_lens_photo_1791045838333.jpg',
+    id: 'user-img-7',
+    url: 'https://i.ibb.co/FLdVhyfj/photo-2026-09-27-11-31-43.jpg',
     span: 'col-span-1 sm:col-span-2 row-span-2'
   },
   {
-    id: 'g8',
-    url: '/src/assets/images/tablet_streaming_apps_1791045826090.jpg',
+    id: 'user-img-8',
+    url: 'https://i.ibb.co/bMGwcBzZ/wwwwww.jpg',
     span: 'col-span-1'
   },
   {
-    id: 'g9',
-    url: '/src/assets/images/magazine_print_issue_1791046659621.jpg',
+    id: 'user-img-9',
+    url: 'https://i.ibb.co/DffPg8p7/ww.jpg',
     span: 'col-span-1'
   },
   {
-    id: 'g10',
-    url: '/src/assets/images/tech_travel_backpack_1791046671304.jpg',
+    id: 'user-img-10',
+    url: 'https://i.ibb.co/R5TXYfW/wee.jpg',
+    span: 'col-span-1'
+  },
+  {
+    id: 'user-img-11',
+    url: 'https://i.ibb.co/5JDWkCZ/wee-n.jpg',
+    span: 'col-span-1 sm:col-span-2'
+  },
+  {
+    id: 'user-img-12',
+    url: 'https://i.ibb.co/s9RrLXbs/6338850633398884275-1109.jpg',
+    span: 'col-span-1'
+  },
+  {
+    id: 'user-img-13',
+    url: 'https://i.ibb.co/RGZs7v20/Whats-App-Image-2026-09-26-at-21-21-06.jpg',
     span: 'col-span-1 sm:col-span-2'
   }
 ];

@@ -23,7 +23,7 @@ import { PhotoGalleryPage } from './components/PhotoGalleryPage';
 import { AdminPanelPage } from './components/AdminPanelPage';
 import { Footer } from './components/Footer';
 import { BannerAd } from './components/BannerAds';
-import { SearchModal, SubscribeModal, WatchModal, AdInfoModal } from './components/Modals';
+import { SearchModal, SubscribeModal, AdInfoModal } from './components/Modals';
 
 export default function App() {
   const [posts, setPosts] = useState<Post[]>(POSTS);
@@ -35,7 +35,6 @@ export default function App() {
   // Modals state
   const [isSearchOpen, setIsSearchOpen] = useState(false);
   const [isSubscribeOpen, setIsSubscribeOpen] = useState(false);
-  const [isWatchOpen, setIsWatchOpen] = useState(false);
   const [isAdInfoOpen, setIsAdInfoOpen] = useState(false);
 
   // Navigation handlers
@@ -128,7 +127,6 @@ export default function App() {
         currentView={currentView}
         onNavigate={handleNavigate}
         onOpenSearch={() => setIsSearchOpen(true)}
-        onOpenWatch={() => setIsWatchOpen(true)}
       />
 
       {/* 4. Top Stories Scrolling Ticker */}
@@ -306,13 +304,6 @@ export default function App() {
       <SubscribeModal
         isOpen={isSubscribeOpen}
         onClose={() => setIsSubscribeOpen(false)}
-      />
-
-      <WatchModal
-        isOpen={isWatchOpen}
-        onClose={() => setIsWatchOpen(false)}
-        posts={posts}
-        onSelectPost={handleSelectPost}
       />
 
       <AdInfoModal

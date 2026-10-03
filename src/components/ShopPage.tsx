@@ -10,7 +10,7 @@ export const ShopPage: React.FC<ShopPageProps> = () => {
   const [selectedProduct, setSelectedProduct] = useState<Product | null>(null);
 
   const handleAgiza = (product: Product) => {
-    const message = `Habari, nahitaji kuagiza: ${product.title} (Bei: $${product.price})`;
+    const message = `Habari, nahitaji kuagiza: ${product.title} (Bei: TSh ${product.price.toLocaleString()})`;
     const whatsappUrl = `https://wa.me/255623709042?text=${encodeURIComponent(message)}`;
     window.open(whatsappUrl, '_blank');
   };
@@ -24,7 +24,7 @@ export const ShopPage: React.FC<ShopPageProps> = () => {
             MagazineSpare Store
           </h1>
           <p className="text-xs sm:text-sm text-slate-600 mt-2 max-w-2xl leading-relaxed">
-            Curated print anthologies, all-access digital memberships, photojournalism optics, and field travel essentials. Bofya <strong>AGIZA</strong> kutuma oda yako moja kwa moja kupitia WhatsApp (0623709042).
+            Curated print anthologies, all-access digital memberships, photojournalism optics, and field travel essentials. Bei zote zipo katika <strong>TSh (TZS)</strong>. Bofya <strong>AGIZA</strong> kutuma oda yako moja kwa moja kupitia WhatsApp (0623709042).
           </p>
         </div>
 
@@ -62,7 +62,7 @@ export const ShopPage: React.FC<ShopPageProps> = () => {
               />
               {product.originalPrice && (
                 <span className="absolute top-3 right-3 bg-red-600 text-white text-[10px] font-bold uppercase tracking-wider px-2 py-0.5 rounded-xs">
-                  Save ${(product.originalPrice - product.price).toFixed(0)}
+                  Okoa TSh {(product.originalPrice - product.price).toLocaleString()}
                 </span>
               )}
             </div>
@@ -100,28 +100,28 @@ export const ShopPage: React.FC<ShopPageProps> = () => {
                 ))}
               </ul>
 
-              {/* Price & AGIZA button */}
+              {/* Price & AGIZA button in TSh / TZS */}
               <div className="mt-auto pt-3 border-t border-slate-100 flex items-center justify-between gap-3">
                 <div>
-                  <div className="flex items-baseline gap-2">
-                    <span className="text-xl font-extrabold text-slate-950 font-condensed">
-                      ${product.price.toFixed(2)}
+                  <div className="flex items-baseline gap-1.5">
+                    <span className="text-lg sm:text-xl font-extrabold text-slate-950 font-condensed">
+                      TSh {product.price.toLocaleString()}
                     </span>
-                    {product.originalPrice && (
-                      <span className="text-xs text-slate-400 line-through">
-                        ${product.originalPrice.toFixed(2)}
-                      </span>
-                    )}
                   </div>
-                  <span className="text-[10px] text-emerald-600 font-semibold block">
-                    In Stock · WhatsApp Delivery
+                  {product.originalPrice && (
+                    <span className="text-xs text-slate-400 line-through block">
+                      TSh {product.originalPrice.toLocaleString()}
+                    </span>
+                  )}
+                  <span className="text-[10px] text-emerald-600 font-semibold block mt-0.5">
+                    Ipo Dukani · TZS
                   </span>
                 </div>
 
                 {/* AGIZA button directly opening WhatsApp */}
                 <button
                   onClick={() => handleAgiza(product)}
-                  className="bg-emerald-600 hover:bg-emerald-700 text-white font-extrabold text-xs uppercase tracking-wider px-5 py-2.5 transition-colors cursor-pointer rounded-xs shadow-xs flex items-center gap-1.5"
+                  className="bg-emerald-600 hover:bg-emerald-700 text-white font-extrabold text-xs uppercase tracking-wider px-5 py-2.5 transition-colors cursor-pointer rounded-xs shadow-xs flex items-center gap-1.5 shrink-0"
                   title="Agiza kupitia WhatsApp 0623709042"
                 >
                   <svg className="w-4 h-4 fill-current" viewBox="0 0 24 24">
@@ -147,7 +147,7 @@ export const ShopPage: React.FC<ShopPageProps> = () => {
           >
             <button
               onClick={() => setSelectedProduct(null)}
-              className="absolute top-4 right-4 text-slate-400 hover:text-slate-800 text-xl font-mono"
+              className="absolute top-4 right-4 text-slate-400 hover:text-slate-800 text-xl font-mono cursor-pointer"
             >
               ✕
             </button>
@@ -168,13 +168,16 @@ export const ShopPage: React.FC<ShopPageProps> = () => {
 
                 <div className="flex items-center gap-2 mb-3">
                   <span className="text-2xl font-extrabold text-slate-900 font-condensed">
-                    ${selectedProduct.price.toFixed(2)}
+                    TSh {selectedProduct.price.toLocaleString()}
                   </span>
                   {selectedProduct.originalPrice && (
                     <span className="text-sm text-slate-400 line-through">
-                      ${selectedProduct.originalPrice.toFixed(2)}
+                      TSh {selectedProduct.originalPrice.toLocaleString()}
                     </span>
                   )}
+                  <span className="text-xs font-bold text-emerald-600 bg-emerald-50 px-2 py-0.5 rounded">
+                    TZS
+                  </span>
                 </div>
 
                 <p className="text-xs text-slate-600 leading-relaxed mb-4">
@@ -200,7 +203,7 @@ export const ShopPage: React.FC<ShopPageProps> = () => {
                   <svg className="w-5 h-5 fill-current" viewBox="0 0 24 24">
                     <path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766.001-3.187-2.575-5.77-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.299.045-.677.063-1.092-.069-.252-.08-.575-.187-.988-.365-1.739-.751-2.874-2.502-2.961-2.617-.087-.116-.708-.94-.708-1.793s.448-1.273.607-1.446c.159-.173.346-.217.462-.217l.332.007c.106.005.249-.04.39.298.144.347.491 1.2.534 1.287.043.087.072.188.014.304-.058.116-.087.188-.173.289l-.26.304c-.087.086-.177.18-.076.354.101.174.449.741.964 1.201.662.591 1.221.774 1.394.86.173.086.275.072.376-.044.101-.116.433-.506.549-.68.116-.173.231-.145.39-.087s1.011.477 1.184.564.289.13.332.202c.045.072.045.419-.099.824z" />
                   </svg>
-                  <span>AGIZA SASA KUPITIA WHATSAPP (0623709042)</span>
+                  <span>AGIZA SASA (TSh {selectedProduct.price.toLocaleString()})</span>
                 </button>
               </div>
             </div>
