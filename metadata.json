@@ -1,0 +1,6 @@
+{
+  "name": "MagazineSpare - News & Magazine Theme",
+  "description": "High-performance, lightweight WordPress Full Site Editing (FSE) news portal and magazine theme rebuilt in React.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
