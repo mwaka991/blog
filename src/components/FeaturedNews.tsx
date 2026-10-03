@@ -11,21 +11,15 @@ export const FeaturedNews: React.FC<FeaturedNewsProps> = ({
   posts,
   onSelectPost,
 }) => {
-  // 5 featured news items visible in the screenshot
-  const featuredPosts = [
-    posts.find((p) => p.id === 'how-ai-is-transforming-small-businesses'),
-    posts.find((p) => p.id === 'inside-the-rise-of-electric-vehicles'),
-    posts.find((p) => p.id === 'weekend-in-the-mountains-nature-travel'),
-    posts.find((p) => p.id === 'future-of-remote-work-digital-workforce'),
-    posts.find((p) => p.id === 'how-local-sports-clubs-impact'),
-  ].filter(Boolean) as Post[];
+  // Display top 5 featured episodes/stories
+  const featuredPosts = posts.slice(0, 5);
 
   return (
     <section className="max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-8 py-8 border-t border-slate-200 select-none">
       {/* Section Header */}
       <div className="flex items-center justify-between pb-2 mb-6 border-b-2 border-slate-200 relative after:absolute after:bottom-[-2px] after:left-0 after:w-16 after:h-[2px] after:bg-red-600">
         <h2 className="text-lg sm:text-xl font-bold tracking-tight text-slate-900 uppercase font-condensed">
-          Featured News
+          Simulizi & Makala Zote
         </h2>
       </div>
 

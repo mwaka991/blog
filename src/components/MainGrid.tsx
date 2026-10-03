@@ -11,22 +11,20 @@ export const MainGrid: React.FC<MainGridProps> = ({
   posts,
   onSelectPost,
 }) => {
-  // Post lookups
-  const mainStory = posts.find((p) => p.id === 'exploring-historic-cities') || posts[0];
-  const sportsPost = posts.find((p) => p.id === 'how-local-sports-clubs-impact') || posts[1];
-  const streamingPost = posts.find((p) => p.id === 'streaming-platforms-changing-movies') || posts[2];
-  const aiPost = posts.find((p) => p.id === 'how-ai-is-transforming-small-businesses') || posts[3];
-  const evPost = posts.find((p) => p.id === 'inside-the-rise-of-electric-vehicles') || posts[4];
-  const travelPost = posts.find((p) => p.id === 'weekend-in-the-mountains-nature-travel') || posts[5];
-  const remotePost = posts.find((p) => p.id === 'future-of-remote-work-digital-workforce') || posts[6];
+  // Use posts array dynamically so newest story episodes appear on front page
+  const mainStory = posts[0];
+  const sportsPost = posts[1] || posts[0];
+  const streamingPost = posts[2] || posts[0];
+  const aiPost = posts[3] || posts[0];
+  const evPost = posts[4] || posts[0];
 
-  // 5 Trending items matching screenshot
+  // 5 Trending items
   const trendingList = [
-    { post: evPost },
-    { post: travelPost },
-    { post: remotePost },
-    { post: sportsPost },
-    { post: streamingPost },
+    { post: posts[4] || posts[0] },
+    { post: posts[3] || posts[0] },
+    { post: posts[2] || posts[0] },
+    { post: posts[1] || posts[0] },
+    { post: posts[0] },
   ];
 
   return (
@@ -84,7 +82,7 @@ export const MainGrid: React.FC<MainGridProps> = ({
                 onClick={() => onSelectPost(mainStory)}
                 className="inline-block border border-red-600 text-red-600 hover:bg-red-600 hover:text-white transition-colors px-4 py-1.5 text-xs font-bold uppercase tracking-wider cursor-pointer"
               >
-                Continue Reading
+                Soma Zaidi
               </button>
             </div>
           </article>
@@ -103,7 +101,6 @@ export const MainGrid: React.FC<MainGridProps> = ({
 
           {/* 2 Vertical Cards */}
           <div className="flex flex-col gap-6 flex-1">
-            {/* Card 1: Sports Clubs */}
             <article className="group flex flex-col">
               <div 
                 onClick={() => onSelectPost(sportsPost)}
@@ -120,17 +117,16 @@ export const MainGrid: React.FC<MainGridProps> = ({
               {/* Title */}
               <h4 
                 onClick={() => onSelectPost(sportsPost)}
-                className="text-sm font-bold text-slate-900 group-hover:text-red-600 transition-colors cursor-pointer leading-snug line-clamp-3 mb-1"
+                className="text-sm font-bold text-slate-900 group-hover:text-red-600 transition-colors cursor-pointer leading-snug line-clamp-3 mb-1 font-condensed"
               >
                 {sportsPost.title}
               </h4>
 
               <div className="text-[11px] text-slate-500 font-medium">
-                {sportsPost.author}
+                {sportsPost.author} · {sportsPost.date}
               </div>
             </article>
 
-            {/* Card 2: Streaming Platforms */}
             <article className="group flex flex-col pt-3 border-t border-slate-100">
               <div 
                 onClick={() => onSelectPost(streamingPost)}
@@ -147,13 +143,13 @@ export const MainGrid: React.FC<MainGridProps> = ({
               {/* Title */}
               <h4 
                 onClick={() => onSelectPost(streamingPost)}
-                className="text-sm font-bold text-slate-900 group-hover:text-red-600 transition-colors cursor-pointer leading-snug line-clamp-3 mb-1"
+                className="text-sm font-bold text-slate-900 group-hover:text-red-600 transition-colors cursor-pointer leading-snug line-clamp-3 mb-1 font-condensed"
               >
                 {streamingPost.title}
               </h4>
 
               <div className="text-[11px] text-slate-500 font-medium">
-                {streamingPost.author}
+                {streamingPost.author} · {streamingPost.date}
               </div>
             </article>
           </div>
@@ -172,7 +168,6 @@ export const MainGrid: React.FC<MainGridProps> = ({
 
           {/* 2 Vertical Cards */}
           <div className="flex flex-col gap-6 flex-1">
-            {/* Card 1: AI Small Businesses */}
             <article className="group flex flex-col">
               <div 
                 onClick={() => onSelectPost(aiPost)}
@@ -189,17 +184,16 @@ export const MainGrid: React.FC<MainGridProps> = ({
               {/* Title */}
               <h4 
                 onClick={() => onSelectPost(aiPost)}
-                className="text-sm font-bold text-slate-900 group-hover:text-red-600 transition-colors cursor-pointer leading-snug line-clamp-3 mb-1"
+                className="text-sm font-bold text-slate-900 group-hover:text-red-600 transition-colors cursor-pointer leading-snug line-clamp-3 mb-1 font-condensed"
               >
                 {aiPost.title}
               </h4>
 
               <div className="text-[11px] text-slate-500 font-medium">
-                {aiPost.author}
+                {aiPost.author} · {aiPost.date}
               </div>
             </article>
 
-            {/* Card 2: Rise of Electric Vehicles */}
             <article className="group flex flex-col pt-3 border-t border-slate-100">
               <div 
                 onClick={() => onSelectPost(evPost)}
@@ -216,13 +210,13 @@ export const MainGrid: React.FC<MainGridProps> = ({
               {/* Title */}
               <h4 
                 onClick={() => onSelectPost(evPost)}
-                className="text-sm font-bold text-slate-900 group-hover:text-red-600 transition-colors cursor-pointer leading-snug line-clamp-3 mb-1"
+                className="text-sm font-bold text-slate-900 group-hover:text-red-600 transition-colors cursor-pointer leading-snug line-clamp-3 mb-1 font-condensed"
               >
                 {evPost.title}
               </h4>
 
               <div className="text-[11px] text-slate-500 font-medium">
-                {evPost.author}
+                {evPost.author} · {evPost.date}
               </div>
             </article>
           </div>
@@ -235,7 +229,7 @@ export const MainGrid: React.FC<MainGridProps> = ({
           {/* Section Header */}
           <div className="flex items-center justify-between pb-2 mb-4 border-b-2 border-slate-200 relative after:absolute after:bottom-[-2px] after:left-0 after:w-16 after:h-[2px] after:bg-red-600">
             <h2 className="text-base sm:text-lg font-bold tracking-tight text-slate-900 uppercase font-condensed">
-              Trending Now
+              Trending Stories
             </h2>
           </div>
 
@@ -249,7 +243,7 @@ export const MainGrid: React.FC<MainGridProps> = ({
               >
                 <div className="flex-1 min-w-0">
                   {/* Headline */}
-                  <h4 className="text-xs sm:text-sm font-bold text-slate-900 group-hover:text-red-600 transition-colors leading-snug line-clamp-2 mb-1">
+                  <h4 className="text-xs sm:text-sm font-bold text-slate-900 group-hover:text-red-600 transition-colors leading-snug line-clamp-2 mb-1 font-condensed">
                     {item.post.title}
                   </h4>
 

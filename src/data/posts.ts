@@ -2,17 +2,247 @@ import { Post } from '../types';
 
 export const POSTS: Post[] = [
   {
+    id: 'shemeji-sio-huko-ep-1',
+    title: 'SHEMEJI SIO HUKO EP-1',
+    slug: 'shemeji-sio-huko-ep-1',
+    categories: [],
+    author: 'Story Writer',
+    date: 'Okt 3, 2026',
+    readTime: '6 min read',
+    image: 'https://i.ibb.co/cc9MfZHF/photo-2026-09-27-11-21-34.jpg',
+    excerpt: 'AISHA alijiona kama mtu mwenye bahati kwa kutongozwa na shemejiye. Aliwaza endapo akimkubalia au asimkubalie...',
+    isMainStory: true,
+    isFeatured: true,
+    views: 18520,
+    pullQuote: 'Endapo nikikubali dada akigundua itakuwaje? Siwezi kupiga teke fuko la pesa… Potelea mbali.',
+    content: [
+      'AISHA alijiona kama mtu mwenye bahati kwa kutongozwa na shemejiye. Aliwaza endapo akimkubalia au asimkubalie kwa kuona kuwa ni shemeji yake. Alifikiria sana juu ya utajiri wa shemeji yake na hali aliyonayo yeye .',
+      '“Endapo nikikubali dada akigundua itakuwaje?” aah!! Lakini si amenitongoza mwenyewe,siwezi kupiga teke fuko la pesa… Potelea mbali.”',
+      'Siku iliyofuata Aisha alikutana na rafiki yake aliyeitwa Anita. Aisha alimsimulia Anita kuhusu shemejiye.',
+      '“Shoga basi ngoja nikupe mkanda”.',
+      '“Hapo ndipo ninapokupendea tukikutana baraza huchangamka kwa stori, haya shoga hebu nipe huo mkanda”.',
+      '“Jana usiku wakati tunakula,dada aliwahi kushiba akaenda zake kulala, sebuleni tukabaki mimi na shemeji tukipata dinna. Basi shoga’angu shemeji si nd’o akaanza… Ooh Aisha unajua wewe mzuri sana kuliko hata dada’ko mi nikabaki kucheka tu. Dakika chache zikapita mara akaanza tena… Aisha najua wewe ni mtu mzima unayeweza kutunza siri,mi nataka we uwe mpenzi wangu lakini dada’ko asijue. Shoga nlishtuka kwani sikutegemea hata sikumoja kama shemeji atakuja kunitamkia maneno kama yale, ukizingatia jinsi ninavyomheshimu.” “Heehee shuntu babuu ….. Aaa babu wee heshima hiyo kwani baba’ko mzazi yule.” Anita alidakia, wote kwa pamoja waliangua vicheko vya umbea.',
+      '“Sasa sikiliza shoga yangu nikwambie maisha ndo hayo yanaanza kukunyookea ukizingatia shemejiyo alivyo na utajiri,kuuacha ni sawa na kukataa kuolewa na mfalme ili uje kuwa malkia”.',
+      '“Kwa hiyo ndo unaniambiaje?”',
+      '“ Hee bibi ee tulia mbona una haraka kama mkojo wa asubuhi,utakukurupua kitandani utake usitake,usiombe ukakuta chooni kuna mtu utaisoma, utarukaruka kama umepewa adhabu na mwalimu. Kama kakuanza mwenyewe basi kamaindi figa huyo.',
+      'Vibaya kama umemuanza wewe au umemtega? Maana na sisi wanawake hatujambo.Ukimpenda mwanamume utamfanyia kila visa hadi ataingia laini mara urembue macho,mara umvalie khanga moja na hiyo mikalio yako shoga kama umemfanya hivyo mwanamume wa watu utamuua.”',
+      '“ Acha utani Anita”',
+      '“Basi ndo hivyo shoga’angu.”',
+      '“Mimi jana nilimwambia angoje nifikirie maana niliishiwa pozi, nkashindwa hata kuongea. Taratibu nlielekea chumbani kwangu na kuanza kufikiria. Mpaka leo asubuhi sikupata jibu, nlijumlisha na kutoa lakini jibu halikupatikana. Lakini sasa nimepata jibu zuri nd’o ma’na nakupenda hapo hapakosi jibu la uhakika,ama kweli we ndo jembe langu”.',
+      '“Aisha”',
+      '“Abee” Aisha aliitika na mazungumzo yao yalikatishwa na wito ule, hivyo kila mmoja alielekea kwao.',
+      '”Kachukue pesa juu ya meza wende sokoni.Unataka kumpikia nini leo shemejio?”',
+      '“Mi si ninajua shemeji yangu anapenda wali na samaki, basi nami ntapika hivyo.”',
+      '“Haya nenda basi.”Nasra alimsihi Aisha ambaye alikuwa akitoka kuelekea sokoni.',
+      'Akiwa njiani Aisha alijawa na mawazo juu ya shemeji yake, alifikiri kama shemeji yake alimpenda kweli au alimtega tuu ili kupima imani yake.“Atajijua mwenyewe, mimi leo akiniuliza nitamwambia nimekubali. Kama lengo lake ni kunipima imani yangu basi atapata robo kilo.”',
+      'Aliwaza Aisha ambaye tayari alikuwa ameshafika sokoni na kuchukua mahitaji aliyoagizwa.',
+      'Kama kawaida yao usiku ulipowadia chakula cha usiku kilikuwa tayari mezani na wote watatu walikutana mezani kwa ajili ya kupata msosi.',
+      '“Mume wangu, leo Aisha amesema shemejiye wapenda sana wali kwa samaki ndiyo maana ameamua kukupikia.” Nasra alisema kwa utani bila ya kujua kinachoendelea. Wote walicheka.',
+      '“Kumbe ndiyo maana chakula cha leo kitamu. Kumbe hii ni spesho dinna for me?” Bwana Abduli alitabasamu huku akimwangalia'
+    ],
+    comments: [
+      {
+        id: 'c1',
+        author: 'Mwanafunzi wa Simulizi',
+        date: 'Okt 3, 2026',
+        content: 'Stori tamu sana hii! Nasubiri kwa hamu muendelezo wake.'
+      }
+    ]
+  },
+  {
+    id: 'shemeji-sio-huko-ep-2',
+    title: 'SHEMEJI SIO HUKO EP-2',
+    slug: 'shemeji-sio-huko-ep-2',
+    categories: [],
+    author: 'Story Writer',
+    date: 'Okt 3, 2026',
+    readTime: '6 min read',
+    image: 'https://i.ibb.co/qYX2Ms7d/photo-2026-09-27-11-21-28.jpg',
+    excerpt: 'Aisha ambaye yeye alionekana akimwangalia kwa aibu. Nasra kama ilivyo kawaida yake...',
+    isMostShared: true,
+    isTrending: true,
+    views: 14200,
+    pullQuote: 'Hapana shemeji mi mbona nshakubali... lakini muda ulikuwa umeenda sana hivyo wote walikubaliana kupanga siku nyingine.',
+    content: [
+      'Aisha ambaye yeye alionekana akimwangalia kwa aibu.',
+      'Nasra kama ilivyo kawaida yake. Msichana asiyependa kujaza tumbo kisha kushindwa kuvaa bodisuti. Taratibu alivuta birika lililokuwa na maji ya kunawa. Akajimiminia maji,baada ya kuhakikisha kuwa mkono wake umetakata taratibu alinyanyuka na kuelekea chumbani kwake huku akimtakia mdogo wake usiku mwema. Bw. Abduli alionyesha tabasamu huku akimkonyeza Aisha. Dakika kadhaa zilipita kukiwa kimya Bw. Abduli alianza ule utani wake.',
+      '“Sa’ Aisha ndo vipi mbona hujanipa jibu langu au nd’o hunipendi?”',
+      '“ Hapana shemeji mi mbona nshakubali.”Aisha alijibu kwa kusitasita huku macho yake yakiangalia chini na kidole kimoja kikiwa mdomoni.',
+      '“Siamini kama uyasemayo ni ya kweli,mbona bado unaniita shemeji badala ya kusema namekubali mpenzi.” Bw. Abduli alisema kwa utani. “Basi nashukuru mpenzi kama umekubali ombi langu naminajiona kama mwenye bahati kumpata msichana mrembo kama wewe.” Bw Abduli alinyanyuka na kumbusu Aisha ili kuonesha kuwa wameshafungua ukurasa mpya wa mapenzi',
+      'Kule chumbani Nasra alitandika kitanda kisha akabadili nguo alizokuwa amevaa, alichukua taulo akalivaa kisha akajitupa kitandani, akimsubiri mumewe ili wakaoge. Dakika zalipotea bila Bw. Abduli kutokea. Nasra alijigaragaza kitandani hadi akapitiwa na usingizi. Baada ya dakika kama ishirini hivi Nasra alishtuka toka usingizini nakutupia machosaa iliyokuwa ukutani ambayo ilimtaarifu kuwa ni saa tano usiku lakini hakumwona mumewe.”',
+      'Hee! Kula huko kula gani wanakula mawe?” Nasra alijisemea huku akiwa amejawa na hasira. Mara mlango wa chumbani ulifunguliwa taratibu Bw. Abduli aliingia ndani na kuelekea mahali lilipokuwa taulo. Alibadili nguo alizokuwa amevaa na kujifunga taulo kiunoni. Kisha alielekea mahali alipokuwa mkewe na kumshika mikono kisha kumnyanyua taratibu kuelekea bafuni.',
+      'Ilikuwa ni siku ya Jumapili ya mwisho wa mwezi, vitu vyote vilikuwa vimeisha ndani.Hakukuwa na unga, mchele, nyanya, vitunguu wala mafuta ya kupikia.',
+      'Bw. Abdul alimshauri mkewe kuwa anahitaji kuongozana na Aisha ili wakanunue bidhaa. Nasra hakuwa na kipingamizi kwani hakuelewa lolote juu ya uhusiano wa kimapenzi kati ya Bw. Abdul na shemejiye. (Aisha).',
+      '“Aisha!” Sauti ilisikika masikioni mwa Aisha .',
+      '“Abee!” Aisha aliitika toka chumbani kwake alijua fika kuwa sauti ile ni ya dada’ke.',
+      'Alichukua kanga mbili moja aliipachika kifuani na nyingine kiunoni taratibu akielekea chumbani kwa dada’ke.',
+      '“Nenda kajiandae wende sokoni na shemejiyo.”',
+      'Baada ya dakika chache Aisha alikuwa tayari ameshajiandaa.Alitoka nje.Mbele yake alikuwa amesimama Bw. Abdul mkononi ameshika funguo za gari.',
+      '“Chukua funguo kanisubiri ndani ya gari.”',
+      'Wakati Aisha akipokea funguo zile Bw. Abdul alimbinya vidole huku akimkonyeza.',
+      'Dakika chache zilipita wakati Bw. Abdul akimuaga mkewe. Kisha alitoka nje na kuelekea mahali alipoegesha gari lake. Taratibu Bw. Abdul aliwasha gari na kuliondoa.',
+      'Njiani stori za utani na mapenzi zilitawala.',
+      '“Umependeza sana leo.” Bw. Abdul alisema huku akimgusa Aisha sehemu za mapaja.',
+      '“Acha utani shemeji.”',
+      '“Aaaa!Aisha mambo gani hayo ni lini utaanza kuniita mpenzi au mi sifai kuitwa mpenzi.” Bw. Abdul alitamka huku midomo yake ikichezacheza kwa uchu wa mapenzi .',
+      '“Mambo mazuri hayataki haraka nitazoea taratibu.” Aisha alitamka huku macho yake yakiwa yamebadilika rangi na kuwa mekundu.',
+      'Wote walishajawa na uchu wa mapenzi. Bw. Abdul aliendelea kumpapasa Aisha sehemu mbalimbali za mwili. Lakini sehemu aliyomvutia zaidi ni matiti,yaliyoumbika vizuri na kujaa kifuani mithili ya kifuu cha nazi. Mapaja yake pia yalikuwa ya namna ya pekee ambayo yangeweza kumvutia mwanamume yeyote ambayeni rijali, yalikuwa manene, meupe na mwororo yasiyokuwa hata na chembe ya doa.',
+      'Naye Aisha hakuwa mbumbumbu, akaupenyeza mkono wake hadi sehemu fulani mwilini mwa Abdul na kushika kile alichotaka kukishika. Akamtomasa kwa mapozi, kiganja chake laini kikizidi kumchanganya Abdul na kumwongezea mhemuko. Hakika Bw. Abdul alipagawa sana hadi kufikia hatua ya kutaka kuvunja amri ya sita ndani ya gari.',
+      '“Aisha uvumilivu umenishinda mpenzi, tufanye basi hata kidogo,” Abdul alisema kwa tabu, akizidi kumvuta Aisha na kumkumbatia.',
+      'Aisha hakuona kuwa ni ustaarabu kufanya mapenzi ndani ya gari hivyo alimshauri shemejiye kuwa wapange siku nyingine ya kufanya maangamizi kunako sita kwa sita.',
+      'Kwa kuwa muda ulikuwa umeenda sana hivyo wote walikubaliana kupanga siku nyingine ya kutimiza azma yao.',
+      'ITAENDELEA……..'
+    ],
+    comments: []
+  },
+  {
+    id: 'shemeji-sio-huko-ep-3',
+    title: 'SHEMEJI SIO HUKO EP-3',
+    slug: 'shemeji-sio-huko-ep-3',
+    categories: [],
+    author: 'Story Writer',
+    date: 'Okt 3, 2026',
+    readTime: '6 min read',
+    image: 'https://i.ibb.co/RGZs7v20/Whats-App-Image-2026-09-26-at-21-21-06.jpg',
+    excerpt: 'NAYE Aisha hakuwa mbumbumbu, akaupenyeza mkono wake hadi sehemu fulani mwilini mwa Abdul na kushika kile alichotaka kukishika...',
+    isFeatured: true,
+    isTrending: true,
+    views: 12900,
+    pullQuote: 'Dada mimi nataka kwenda kumtembelea rafiki yangu Anita...',
+    content: [
+      'NAYE Aisha hakuwa mbumbumbu, akaupenyeza mkono wake hadi sehemu fulani mwilini mwa Abdul na kushika kile alichotaka kukishika. Akamtomasa kwa mapozi, kiganja chake laini kikizidi kumchanganya Abdul na kumwongezea mhemuko. Hakika Bw. Abdul alipagawa sana hadi kufikia hatua ya kutaka kuvunja amri ya sita ndani ya gari.',
+      '“Aisha uvumilivu umenishinda mpenzi, tufanye basi hata kidogo,” Abdul alisema kwa tabu, akizidi kumvuta Aisha na kumkumbatia.',
+      'Aisha hakuona kuwa ni ustaarabu kufanya mapenzi ndani ya gari hivyo alimshauri shemejiye kuwa wapange siku nyingine ya kufanya maangamizi kunako sita kwa sita.',
+      'Kwa kuwa muda ulikuwa umeenda sana hivyo wote walikubaliana kupanga siku nyingine ya kutimiza azma yao.',
+      'Huku nyumbani Nasra akiwa juu ya sofa pembeni kuna meza ambayo juu yake kuna glasina chupa iliyojaa juisi ya parachichi. Nasra alimaliza glasi za juisi huku akibadilisha CD za aina mbalimbali kataka runinga.',
+      'Muda mrefu ulipita hatimaye Nasra alichoka kukaa kwenye sofa, taratibu alielekea chumbani kujipumzisha huku njaa ikimtafuna. Baada ya saa moja kupita Nasra alishtuka toka usingizini,aliitupia jicho saa iliyokuwa ukutani ambayo iliomwonyesha kuwa ni saa kumi jioni.',
+      '“Hee!Sokoni huko sokoni ganijamani tangu asubuhi hadi saa hizi.Mmmm! Haya.Aisha alitamka kwa uchungu.”',
+      'Taratibu alivuta mtandio wake na kuupachika begani, kisha akafunga mlango na kuelekea katika baa iliyokuwa karibu na nyumba yaokwa ajili ya kujipatia chochote kitu.',
+      'Dakika chache baada ya kurejea nyumbani alisikia sauti ya honi ya gari iliyoashiria kuwa mumewe alikuwa amerudi.',
+      'Nasra alinyanyuka taratibu na kuelekea wanapoegesha gari.',
+      '“Vipi jamani wazima?” Nasra aliuliza kwa tabasamu ili kuficha hasira zilizomjaa.',
+      '“Sisi wazima dada sijui wewe? Pole sana kwa kukuacha mpweke kwa muda mrefu.” Aisha alitamka kwa furaha ili kuficha upuuzi wake na shamejiye usije ukagundulika.',
+      'Usiku ulipowadia walikutana mezani kupata chakula. Nasra kama kawaida yake baada ya dakika chache taratibu alinyanyuka kuelekea chumbani huku akimtakia mdogo wake usiku mwema.',
+      '“Na wewe ule haraka tuje kulala.Acheni stori zenu za uongo.” Nasra aliongea kwa utani.',
+      '“Sawa bwana.”',
+      'Baada ya kimya cha muda mrefu Bw Abduli alianza stori zake za kuwinda ndege.',
+      '“Kesho itabidi umuage dada yako kuwa unakwenda kwa rafiki yako Anita ili tuweze kukamilisha mipango yetu,au vipi dear.”',
+      '“Sawa usijali.”',
+      'Asubuhi ilipofika Aisha hakuona sababu ya kupoteza muda kwani baada ya kumtakia hali dada yake alimweleza juu ya safari yake.',
+      '“Dada mimi nataka kwenda kumtembelea rafiki yangu Anita MoorjaniAna nini?Anaumwa?”',
+      '“Hapana ninaenda kumtembelea tu”',
+      '“Sawa ila jitahidi kumaliza kazi za asubuhi kabla ya kwenda huko”',
+      '“Sawa dada.”',
+      'Dada’ake hakuwa na kipingamizi kwani hakuelewa kilichokuwa nyuma ya pazia. Hata hivyo alimshauri kuwa asikawie kurudi.Kwani nyakati za usiku huwa kuna uhalifu mwingi.',
+      'Bw. Abdul hakuamini macho yake kama siku ile adhimu waliyokuwa wakiisubiri kwa hamu tele hatimaye imewadia.',
+      '“Aisha mpenzi unajisikiaje?”Bw. Abdul aliuliza huku akisitasita. Aisha hakujibu lolote zaidi ya kung’ata kucha za vidole na kuangalia dirishani akiashiria kuwa na aibu.',
+      '“Nitazame basi mpenzi acha aibu zako wewe! “Ungependa kula nini leo?”',
+      'Baada ya kimya cha dakika kadhaa Bw. Abdul aliisogelea simu ilyokuwa mezani na kubofya namba tofautitofauti kisha kuiweka sikioni mwake.'
+    ],
+    comments: []
+  },
+  {
+    id: 'shemeji-sio-huko-ep-4',
+    title: 'SHEMEJI SIO HUKO EP-4',
+    slug: 'shemeji-sio-huko-ep-4',
+    categories: [],
+    author: 'Story Writer',
+    date: 'Okt 3, 2026',
+    readTime: '7 min read',
+    image: 'https://i.ibb.co/cc9MfZHF/photo-2026-09-27-11-21-34.jpg',
+    excerpt: 'SEHEMU YA NNE - “Haloo.” Chumba namba sita hapa ninahitaji chipsi kuku mbili na juisi ya parachichi...',
+    isFeatured: true,
+    views: 16800,
+    pullQuote: 'Shemeji hakika Mungu amekujaalia mashine yako inasaga ile mbaya tangu nizaliwe sijawahi kukutana na muziki kama huo.',
+    content: [
+      'SEHEMU YA NNE',
+      '“Haloo.”',
+      '“Haloo.” sauti ya upande wa pili ilisikika.',
+      'Chumba namba sita hapa ninahitaji chipsi kuku mbili na juisi ya parachichi.',
+      '“Sawa bosi.”',
+      'Baada ya dakika chache mlango uligongwa, alikuwa ni yule mhudumu aliyemwagiza chakula.',
+      '“Karibu” Bw. Abdul alimwamuru mhudumu kuingia ndani.',
+      'Baada ya kuingia yule mhudumu aliweka sahani za chakula juu ya meza na kuwakaribisha.',
+      '“Kula basi mpenzi au nikulishe.”',
+      'Bw. Abdul alichukua kipande cha kuku na kumlisha Aisha huku mkono wake mwingine akigusa titi la Aisha.',
+      'Najua kuwa wewe unapenda sana chipsi kuku na ndiyo maana nami nikaagiza hivyo.',
+      'Waliendelea kula kwa muda kadhaa wote wakiwa kimya.Chakula kilianza kwisha taratibu ndani ya sahani,macho na mikono ya Bw. Abdul ilikuwa katika matiti ya Aisha. Taratibu Aisha alianza kulegea na kujitupa kitandani.',
+      'Bw. Abdul aliacha kula naye akajibwaga kitandani juu ya kifua cha Aisha. Matiti yaliyosimama kifuani kwa Aisha yalimchomachoma Bw. Abdul kiasi cha kuamsha mihemko ya mwili.',
+      'Bw. Abdul taratibu aliipandisha sketi iliyovaliwa na Aisha na kusababisha mapaja yake kubaki wazi. Udenda ulimtoka Bw. Abdul kwa kuona mapaja yaliyoumbika vizuri.',
+      'Bw.Abdul aliigeuza shingo ya Aisha na kuielekeza upande wake kisha kuikutanisha midomo yao kwa ajili ya kubadilishana mate.Bw. Abdul alisaula nguo alizovaa na kubakia na nguo ya ndani tu,kisha alimwinua Aisha na kumvua nguo zote.',
+      '“Mpenzi nivue na mimi basi.”',
+      'Mikono ya Aisha taratibu ilielekea kiunoni mwa Bw. Abdul kisha taratibu aliishusha boksa. Polepole Bw. Abdul alimbeba Aisha na kumtupia kitandani kisha naye alifuata. Kilichoendelea hapo hakuna aliyeshuhudia zaidi yakusikia miguno ya kimahaba ikitoka mdomoni mwa Aisha,',
+      '“Shemeji acha…! Shemeji taratibu…!Basi shemeji…! Wajuzi wa mambo haya hudai kuwa miguno hiyo humfanya mwanamume kujihisi kuwa yeye ni kifaa kwelikweli.Hakika Aisha alimaliza miguno ya aina zote ilimradi tu kumteka shemejiye.Kwa upande wa staili nao hakika Aisha hukuwa nyuma ingawa hakuwahi kufundishwa unyagoni lakini alizibamba zile za kwenye vitabu visivyoruhusiwa kusomwa na watoto hivyo alijitahidi kuzikumbuka. Maana wenyewe wajuzi wa mambo haya hudai kuwa katikakona hii si vizuri kukaa kama gogo linalosubiri mpasuaji.',
+      'Dakika takriban 45 zilipita bila ya mechi kufikia kileleni. Hakika Bw. Abdul alijaliwa na Mungu katika sekta hiyo. Staili zilibadilishwa kila mara lakini haikuwa rahisi kufikia kileleni kwa muda mfupi.',
+      'Chezea Bw. Abdul wewe.Aisha alishindwa kuvumilia hivyo alijikuta akitoa sauti kubwa iliyosikika hadi nje Bw. Abdul alimtuliza kidogo kisha mechi ikaendelea kama kawaida.',
+      'Baada ya muda kadhaa kupita hatimaye mechi ilifika kileleni. Aisha alikuwa na uchovu hivyo hakutaka hata kumwangalia Bw. Abdul,alijigeuza upande wa pili na kuruhusu usingizi. Kwa upande wa Bw. Abdul naye hakutofautiana na Aisha, alichukua taulo na kujifuta jasho kisha alijilaza kupata usingizikidogo. Wote walilala kwa dakika kadhaa.Muda mfupi baadaye waliamka.',
+      '“Shemeji hakika Mungu amekujaalia mashine yako inasaga ile mbaya tangu nizaliwe sijawahi kukutana na muziki kama huo. Mmmm! Kumbe dada yangu kazi anayo.” Aisha alisema kwa utani huku akimwangalia shemejiye. Bw. Abdul aliona aibu alisita kidogo kisha akasema',
+      '“Hakuna kinachoshindikana mpenzi, mwanzo dada yako alipata tabu sana lakini taratibu akazoea,sasa hiviasipopata kwa siku chache tu hana raha na leo nilivyochokasijui itakuwaje. Akisikia kuwa unamchukulia mali yake kazi unayo.”',
+      '“Aende zake huko kama haupo wenzio wala,nami ntazoea taratibu ye amewezaje mpaka mi nishindwe. Waswahili wanasema hakuna cha peke yako hususan hapa mjini.',
+      '“Ukitaka kuhakikisha kama umeshaanza kuzoea turudie tena utagundua kuwa makelele uliyokuwa ukipiga mwanzo hayatakuwapo tena.”',
+      '“Hee!Shida ya kunigeuza kizazi, hapa nilipo miguu haina ushirikiano.”',
+      '“Nakutania tu dear.”',
+      'Bw. Abdul aliingiza mkono ndani ya suruali yake aliyoivaa na kutoa kitita cha laki mbili kisha akamkabidhi Aisha.',
+      'ITAENDELEA….'
+    ],
+    comments: []
+  },
+  {
+    id: 'shemeji-sio-huko-ep-5',
+    title: 'SHEMEJI SIO HUKO EP-5',
+    slug: 'shemeji-sio-huko-ep-5',
+    categories: [],
+    author: 'Story Writer',
+    date: 'Okt 3, 2026',
+    readTime: '6 min read',
+    image: 'https://i.ibb.co/qYX2Ms7d/photo-2026-09-27-11-21-28.jpg',
+    excerpt: 'SEHEMU YA TANO - NAYE Aisha hakuwa mbumbumbu, akaupenyeza mkono wake hadi sehemu fulani mwilini mwa Abdul...',
+    isFeatured: true,
+    views: 15300,
+    pullQuote: 'Kesho itabidi umuage dada yako kuwa unakwenda kwa rafiki yako Anita ili tuweze kukamilisha mipango yetu.',
+    content: [
+      'SEHEMU YA TANO',
+      'NAYE Aisha hakuwa mbumbumbu, akaupenyeza mkono wake hadi sehemu fulani mwilini mwa Abdul na kushika kile alichotaka kukishika. Akamtomasa kwa mapozi, kiganja chake laini kikizidi kumchanganya Abdul na kumwongezea mhemuko. Hakika Bw. Abdul alipagawa sana hadi kufikia hatua ya kutaka kuvunja amri ya sita ndani ya gari.',
+      '“Aisha uvumilivu umenishinda mpenzi, tufanye basi hata kidogo,” Abdul alisema kwa tabu, akizidi kumvuta Aisha na kumkumbatia.',
+      'Aisha hakuona kuwa ni ustaarabu kufanya mapenzi ndani ya gari hivyo alimshauri shemejiye kuwa wapange siku nyingine ya kufanya maangamizi kunako sita kwa sita.',
+      'Kwa kuwa muda ulikuwa umeenda sana hivyo wote walikubaliana kupanga siku nyingine ya kutimiza azma yao.',
+      'Huku nyumbani Nasra akiwa juu ya sofa pembeni kuna meza ambayo juu yake kuna glasina chupa iliyojaa juisi ya parachichi. Nasra alimaliza glasi za juisi huku akibadilisha CD za aina mbalimbali kataka runinga.',
+      'Muda mrefu ulipita hatimaye Nasra alichoka kukaa kwenye sofa, taratibu alielekea chumbani kujipumzisha huku njaa ikimtafuna. Baada ya saa moja kupita Nasra alishtuka toka usingizini,aliitupia jicho saa iliyokuwa ukutani ambayo iliomwonyesha kuwa ni saa kumi jioni.',
+      '“Hee!Sokoni huko sokoni ganijamani tangu asubuhi hadi saa hizi.Mmmm! Haya.Aisha alitamka kwa uchungu.”',
+      'Taratibu alivuta mtandio wake na kuupachika begani, kisha akafunga mlango na kuelekea katika baa iliyokuwa karibu na nyumba yaokwa ajili ya kujipatia chochote kitu.',
+      'Dakika chache baada ya kurejea nyumbani alisikia sauti ya honi ya gari iliyoashiria kuwa mumewe alikuwa amerudi.',
+      'Nasra alinyanyuka taratibu na kuelekea wanapoegesha gari.',
+      '“Vipi jamani wazima?” Nasra aliuliza kwa tabasamu ili kuficha hasira zilizomjaa.',
+      '“Sisi wazima dada sijui wewe? Pole sana kwa kukuacha mpweke kwa muda mrefu.” Aisha alitamka kwa furaha ili kuficha upuuzi wake na shamejiye usije ukagundulika.',
+      'Usiku ulipowadia walikutana mezani kupata chakula. Nasra kama kawaida yake baada ya dakika chache taratibu alinyanyuka kuelekea chumbani huku akimtakia mdogo wake usiku mwema.',
+      '“Na wewe ule haraka tuje kulala.Acheni stori zenu za uongo.” Nasra aliongea kwa utani.',
+      '“Sawa bwana.”',
+      'Baada ya kimya cha muda mrefu Bw Abduli alianza stori zake za kuwinda ndege.',
+      '“Kesho itabidi umuage dada yako kuwa unakwenda kwa rafiki yako Anita ili tuweze kukamilisha mipango yetu,au vipi dear.”',
+      '“Sawa usijali.”',
+      'Asubuhi ilipofika Aisha hakuona sababu ya kupoteza muda kwani baada ya kumtakia hali dada yake alimweleza juu ya safari yake.',
+      '“Dada mimi nataka kwenda kumtembelea rafiki yangu Anita MoorjaniAna nini?Anaumwa?”',
+      '“Hapana ninaenda kumtembelea tu”',
+      '“Sawa ila jitahidi kumaliza kazi za asubuhi kabla ya kwenda huko”',
+      '“Sawa dada.”',
+      'Dada’ake hakuwa na kipingamizi kwani hakuelewa kilichokuwa nyuma ya pazia. Hata hivyo alimshauri kuwa asikawie kurudi.Kwani nyakati za usiku huwa kuna uhalifu mwingi.',
+      'Bw. Abdul hakuamini macho yake kama siku ile adhimu waliyokuwa wakiisubiri kwa hamu tele hatimaye imewadia.',
+      '“Aisha mpenzi unajisikiaje?”Bw. Abdul aliuliza huku akisitasita. Aisha hakujibu lolote zaidi ya kung’ata kucha za vidole na kuangalia dirishani akiashiria kuwa na aibu.',
+      '“Nitazame basi mpenzi acha aibu zako wewe! “Ungependa kula nini leo?”',
+      'Baada ya kimya cha dakika kadhaa Bw. Abdul aliisogelea simu ilyokuwa mezani na kubofya namba tofautitofauti kisha kuiweka sikioni mwake.'
+    ],
+    comments: []
+  },
+  {
     id: 'exploring-historic-cities',
     title: 'Exploring Historic Cities: A Journey Through Culture, Food, & Architecture',
     slug: 'exploring-historic-cities-culture-food-architecture',
-    categories: ['Business', 'Health', 'Stories'],
+    categories: [],
     author: 'AF themes',
     date: 'May 10, 2024',
     readTime: '5 min read',
     image: '/src/assets/images/eiffel_tower_night_1791045748763.jpg',
     excerpt: 'Build Your Website in Minutes with One-Click Import – No Coding Hassle!',
-    isMainStory: true,
-    isFeatured: true,
     views: 14820,
     pullQuote: 'Architecture is not merely stone and mortar; it is the frozen music of human civilization echoing across centuries.',
     content: [
@@ -21,228 +251,78 @@ export const POSTS: Post[] = [
       'Urban planners and cultural historians increasingly emphasize the economic and psychological value of heritage preservation. Restoring historic city centers breathes life into local economies while providing residents with walkable, aesthetically inspiring public squares.',
       'As we look toward the future of sustainable tourism, the challenge lies in balancing accessibility with conservation. By fostering respectful exploration and patronizing community-owned establishments, modern explorers can help protect these architectural marvels for generations to come.'
     ],
-    comments: [
-      {
-        id: 'c1',
-        author: 'Julian Vance',
-        date: 'May 11, 2024 at 3:15 pm',
-        content: 'This piece captures the magic of Paris at night perfectly. The combination of local gastronomy and preservation architecture is spot on!'
-      },
-      {
-        id: 'c2',
-        author: 'Elena Rostova',
-        date: 'May 12, 2024 at 10:42 am',
-        content: 'I love how MagazineSpare renders these images and typography. The reading experience feels like a luxury print publication.'
-      }
-    ]
+    comments: []
   },
   {
     id: 'how-local-sports-clubs-impact',
     title: 'How Local Sports Clubs Are Making a Big Impact in Community Development',
     slug: 'how-local-sports-clubs-are-making-a-big-impact',
-    categories: ['Health', 'Science', 'World'],
+    categories: [],
     author: 'AF themes',
     date: 'May 10, 2024',
     readTime: '4 min read',
     image: '/src/assets/images/fitness_training_park_1791045788921.jpg',
     excerpt: 'Grassroots athletic organizations are fostering resilience, intergenerational health, and vibrant social bonds across neighborhoods worldwide.',
-    isMostShared: true,
-    isTrending: true,
-    isFeatured: true,
     views: 9430,
     pullQuote: 'Community sports do not merely build athletic discipline; they create the social fabric that holds neighborhoods together.',
     content: [
       'Beyond trophies and athletic records, grassroots sports clubs serve as vital engines of community resilience and intergenerational solidarity. Across urban parks and suburban recreation centers, community training programs are bridging generational divides.',
-      'Public health studies demonstrate that structured physical activity programs in public spaces correlate with a 38% decrease in feelings of social isolation among senior participants, while instilling crucial leadership and teamwork habits in youth athletes.',
-      'Local sports initiatives are also becoming hubs for holistic community wellness, integrating nutritional counseling, mental health workshops, and civic volunteer networks that extend far beyond the athletic pitch.'
+      'Public health studies demonstrate that structured physical activity programs in public spaces correlate with a 38% decrease in feelings of social isolation among senior participants, while instilling crucial leadership and teamwork habits in youth athletes.'
     ],
-    comments: [
-      {
-        id: 'c3',
-        author: 'Marcus Brody',
-        date: 'May 11, 2024 at 1:20 pm',
-        content: 'Our neighborhood running group has completely transformed morning routines for dozens of families. Essential read!'
-      }
-    ]
+    comments: []
   },
   {
     id: 'streaming-platforms-changing-movies',
-    title: 'Streaming Platforms Are Changing the Way We Watch Movies and TV Shows',
-    slug: 'streaming-platforms-are-changing-the-way-we-watch',
-    categories: ['Newsbeat', 'Science', 'Sports'],
+    title: 'Streaming Platforms and the Changing Landscape of Modern Film Distribution',
+    slug: 'streaming-platforms-changing-landscape-film',
+    categories: [],
     author: 'AF themes',
     date: 'May 10, 2024',
-    readTime: '6 min read',
+    readTime: '4 min read',
     image: '/src/assets/images/tablet_streaming_apps_1791045826090.jpg',
-    excerpt: 'From algorithm-driven curation to binge releases, digital entertainment continues to revolutionize viewing habits and global media production.',
-    isMostShared: true,
-    isTrending: true,
-    views: 8750,
-    pullQuote: 'The living room has become the worldwide premiere theater, democratizing access to international cinema while shifting audience attention spans.',
+    excerpt: 'How on-demand digital distribution models and 4K displays are transforming cinematic production and home entertainment habits.',
+    views: 8210,
+    pullQuote: 'The theater is no longer confined to the auditorium; the living room screen now commands global cultural attention.',
     content: [
-      'The golden age of on-demand streaming has redefined the visual media landscape. Where cinema releases once dictated cultural watercooler moments, algorithmic recommendation engines and instantaneous worldwide catalog drops now dictate consumer trends.',
-      'High-dynamic-range displays and mobile tablet innovations allow cinematic 4K HDR playback anywhere from commute trains to bedside tables. This portability has fostered unprecedented demand for international series, subtitles, and niche documentary programming.',
-      'However, producers and creators face new economic realities, from shifting residual structures to shortened production cycles, prompting a reexamination of how creative talent is compensated in a cloud-first streaming ecosystem.'
+      'The emergence of multi-device streaming platforms has transformed film distribution from an exclusive theatrical window to an immediate global release ecosystem.',
+      'Audiences now command unprecedented access to international cinema, indie documentaries, and restored classics at the touch of a screen.'
     ],
-    comments: [
-      {
-        id: 'c4',
-        author: 'Sophie Laurent',
-        date: 'May 12, 2024 at 8:05 pm',
-        content: 'The shift to international content is undeniable. Shows from Korea, France, and Spain are now mainstream blockbusters thanks to subtitle ubiquity.'
-      }
-    ]
+    comments: []
   },
   {
     id: 'how-ai-is-transforming-small-businesses',
-    title: 'How AI Is Transforming Small Businesses Around the World',
-    slug: 'how-ai-is-transforming-small-businesses-around-the-world',
-    categories: ['Business', 'Health', 'Sports'],
+    title: 'How AI Is Transforming Small Businesses and Independent Creators',
+    slug: 'how-ai-transforming-small-businesses',
+    categories: [],
     author: 'AF themes',
     date: 'May 10, 2024',
-    readTime: '5 min read',
+    readTime: '4 min read',
     image: '/src/assets/images/ai_circuit_chip_1791045763363.jpg',
-    excerpt: 'From automated logistics to hyper-personalized customer engagement, machine learning is leveling the playing field for boutique enterprises.',
-    isEditorPick: true,
-    isFeatured: true,
-    views: 12100,
-    pullQuote: 'Artificial intelligence is no longer the exclusive sandbox of tech conglomerates; it has become the everyday workbench of independent merchants.',
+    excerpt: 'From predictive logistics to customized client communications, small enterprises are deploying artificial intelligence.',
+    views: 11200,
+    pullQuote: 'Artificial intelligence is not replacing human creativity; it is democratizing enterprise capabilities for independent entrepreneurs.',
     content: [
-      'The democratization of artificial intelligence is fundamentally transforming small business operations. Tasks that once required specialized engineering divisions—such as inventory forecasting, automated invoice reconciliation, and personalized marketing—are now accessible via intuitive APIs and lightweight software solutions.',
-      'Boutique retailers and local service providers report dramatic productivity leaps. Automated scheduling assistants and predictive stock management eliminate hours of repetitive administrative overhead each week, freeing founders to focus on craft and customer relationships.',
-      'As machine learning toolkits continue to mature, the competitive gap between global corporations and agile independent operations is narrowing faster than ever anticipated.'
+      'Small enterprises and solo entrepreneurs are utilizing modern machine learning systems to automate administrative friction, optimize supply orders, and generate hyper-tailored marketing collateral.',
+      'The democratization of compute power enables independent storefronts to compete on level terms with global multinational corporations.'
     ],
-    comments: [
-      {
-        id: 'c5',
-        author: 'Devon Miller',
-        date: 'May 11, 2024 at 4:50 pm',
-        content: 'Implementing predictive inventory in our small bookstore saved us nearly 20% in excess ordering this quarter.'
-      }
-    ]
+    comments: []
   },
   {
     id: 'inside-the-rise-of-electric-vehicles',
-    title: 'Inside the Rise of Electric Vehicles and What It Means for the Global Industry',
-    slug: 'inside-the-rise-of-electric-vehicles-and-what-it-means',
-    categories: ['Business', 'Newsbeat', 'Tech'],
-    author: 'AF themes',
-    date: 'May 10, 2024',
-    readTime: '7 min read',
-    image: '/src/assets/images/red_electric_car_1791045776039.jpg',
-    excerpt: 'The global transition to electrification is accelerating, reshaping automotive supply chains, battery innovation, and urban infrastructure.',
-    isEditorPick: true,
-    isTrending: true,
-    isFeatured: true,
-    views: 16400,
-    pullQuote: 'Electrification represents the most profound realignment of industrial manufacturing and urban energy since the internal combustion engine.',
-    content: [
-      'The automotive landscape is undergoing a once-in-a-century transformation. Rapid advancements in solid-state battery chemistry, charging grid expansion, and computational chassis architecture have propelled electric vehicles from early-adopter novelty to mainstream dominance.',
-      'Traditional legacy automakers and agile EV specialists are investing hundreds of billions into localized gigafactories. This massive capital reallocation is reshaping international trade routes for rare earth minerals, cathode manufacturing, and power semiconductor production.',
-      'Urban environments stand to gain the most, with city centers anticipating marked reductions in particulate emissions and acoustic pollution as mass transit and passenger fleets complete their transition to electric powertrains.'
-    ],
-    comments: [
-      {
-        id: 'c6',
-        author: 'Claire Zhang',
-        date: 'May 11, 2024 at 6:30 pm',
-        content: 'The battery supply chain analysis here is outstanding. The next hurdle is definitely rapid megawatt charging on transit corridors.'
-      }
-    ]
-  },
-  {
-    id: 'weekend-in-the-mountains-nature-travel',
-    title: 'A Weekend in the Mountains: Why Nature Travel Is Growing Faster Than Ever',
-    slug: 'weekend-in-the-mountains-why-nature-travel-is-growing',
-    categories: ['Newsbeat', 'Science', 'Tech'],
-    author: 'AF themes',
-    date: 'May 10, 2024',
-    readTime: '4 min read',
-    image: '/src/assets/images/balloons_cappadocia_1791045799613.jpg',
-    excerpt: 'Escaping urban stress for high-altitude adventures is driving a massive boom in ecotourism and sustainable mountain retreats.',
-    isTrending: true,
-    isFeatured: true,
-    views: 7920,
-    pullQuote: 'In the stillness of the mountain air, we discover that disconnecting from screens is the fastest way to reconnect with ourselves.',
-    content: [
-      'The urge to disconnect from continuous digital connectivity has propelled nature-focused travel into a primary wellness priority for millions. Alpine retreats, national parks, and aerial balloon expeditions over breathtaking geological formations are witnessing unprecedented visitor interest.',
-      'Psychological researchers term this phenomenon "biophilic restoration"—the quantifiable reduction in cortisol levels and cognitive fatigue when humans spend extended periods immersed in natural ecosystems.',
-      'Ecotourism providers are innovating with off-grid solar cabins, low-impact trail management, and community-led wildlife conservation, proving that hospitality and environmental stewardship can reinforce one another.'
-    ],
-    comments: [
-      {
-        id: 'c7',
-        author: 'Hannah G.',
-        date: 'May 12, 2024 at 9:15 am',
-        content: 'Watching the sunrise from a hot air balloon over Cappadocia is truly an unforgettable bucket list experience!'
-      }
-    ]
-  },
-  {
-    id: 'future-of-remote-work-digital-workforce',
-    title: 'Future of Remote Work: How Companies Are Adapting to a Digital Workforce',
-    slug: 'future-of-remote-work-how-companies-are-adapting',
-    categories: ['Business', 'Newsbeat', 'World'],
+    title: 'Inside the Rise of Electric Vehicles: Infrastructure, Battery Tech, & Beyond',
+    slug: 'inside-the-rise-of-electric-vehicles',
+    categories: [],
     author: 'AF themes',
     date: 'May 10, 2024',
     readTime: '5 min read',
-    image: '/src/assets/images/remote_office_worker_1791045810299.jpg',
-    excerpt: 'Hybrid schedules, asynchronous communication tools, and decentralized organizational cultures are defining modern professional life.',
-    isTrending: true,
-    isFeatured: true,
-    views: 11350,
-    pullQuote: 'Work is no longer a physical place you commute to; it is an outcome delivered through trust, autonomy, and clear asynchronous collaboration.',
+    image: '/src/assets/images/red_electric_car_1791045776039.jpg',
+    excerpt: 'Examining the technological breakthroughs, megawatt charging corridors, and urban mobility policies accelerating electric transition.',
+    views: 13500,
+    pullQuote: 'The electric vehicle transition is fundamentally a transformation of urban energy grids and transportation architecture.',
     content: [
-      'The debate between full office mandates and remote flexibility has settled into a pragmatic new equilibrium: high-trust, hybrid collaboration centered on output rather than desk occupancy.',
-      'Leading enterprises are redesigning physical offices as collaborative workshop spaces rather than seas of cubicles. Meanwhile, asynchronous documentation tools and cloud collaboration suites ensure global teams maintain continuous operational momentum without synchronous burnout.',
-      'For knowledge workers, geographical mobility has opened doors to better work-life balance, healthier lifestyles, and dynamic distributed communities across the globe.'
+      'The automotive sector is experiencing its most rapid transformation in over a century as solid-state battery chemistry and rapid charging infrastructure mature.',
+      'Urban centers worldwide are redesigning transit corridors to accommodate zero-emission personal mobility, electric fleet delivery, and connected vehicle telemetry.'
     ],
-    comments: [
-      {
-        id: 'c8',
-        author: 'Liam Patterson',
-        date: 'May 12, 2024 at 11:00 am',
-        content: 'Asynchronous work culture changed our team morale completely. Fewer meetings, more focused deep work.'
-      }
-    ]
-  },
-  {
-    id: 'visual-storytelling-modern-photojournalism',
-    title: 'Mastering Visual Storytelling: The Evolution of Modern Photojournalism',
-    slug: 'mastering-visual-storytelling-modern-photojournalism',
-    categories: ['Stories', 'Tech', 'Newsbeat'],
-    author: 'AF themes',
-    date: 'May 10, 2024',
-    readTime: '4 min read',
-    image: '/src/assets/images/camera_lens_photo_1791045838333.jpg',
-    excerpt: 'High-aperture optics, sensor stabilization, and digital archives empower photographers to capture fleeting historical moments.',
-    isFeatured: true,
-    views: 6890,
-    pullQuote: 'A single frame taken with editorial integrity can illuminate human truth more intensely than hours of fragmented commentary.',
-    content: [
-      'Visual storytelling remains the heartbeat of journalism. While written reports convey facts and context, compelling photography delivers instant emotional resonance, conveying triumph, tragedy, and beauty across cultural boundaries.',
-      'Modern mirrorless camera systems, high-speed computational burst modes, and low-light sensor innovations empower field photojournalists to work in demanding environments with unprecedented precision.',
-      'In an era characterized by image proliferation and AI generation, the verified ethical lens of human photojournalism is more essential to public discourse than ever before.'
-    ],
-    comments: [
-      {
-        id: 'c9',
-        author: 'Arthur Pendelton',
-        date: 'May 12, 2024 at 2:40 pm',
-        content: 'Optics and physical glass continue to make all the difference. True documentary photography cannot be replaced.'
-      }
-    ]
+    comments: []
   }
-];
-
-export const CATEGORIES = [
-  'All',
-  'Business',
-  'Health',
-  'Stories',
-  'Newsbeat',
-  'Science',
-  'Tech',
-  'Sports',
-  'World'
 ];
